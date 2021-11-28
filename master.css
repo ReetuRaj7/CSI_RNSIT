@@ -27,6 +27,7 @@ p{
 }
 .college{
     display: flex;
+    background: #0E6AC7;
     justify-content:flex-start ;
 }
 .image1{
