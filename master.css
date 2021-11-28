@@ -20,10 +20,13 @@ p{
 }
 .nav-item{
     width:fit-content;
+    font-family: 'Montserrat', sans-serif;  
     padding-left:25px;
+    font-weight: bold;
     padding-right:25px;
-    
-
+}
+.nav-item:hover{
+    background-color: rgb(39, 210, 226);
 }
 .college{
     display: flex;
