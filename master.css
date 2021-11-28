@@ -22,34 +22,41 @@ p{
     width: 100px;
 } */
 .college{
-    width: 1500px;
+    display: flex;
+    justify-content:flex-start ;
 }
 .image1{
-    margin: 20px 10px;
-    max-width: 9%;
+    /* margin: 20px 10px; */
+    max-width: 6%;
+    flex-wrap: wrap;
 }
 .image2{
     margin: 20px 10px;
     max-width: 3%;
     position: absolute;
-    top: 60px;
+    top: 70px;
     right: 250px;
 }
 .homeicon{
     float:left;
 }
 .rns{
-    float: right;
-    margin-top: 100px;
-    margin-right: 675px;
+     /* float: right; */
+    margin-top: 40px;
+    margin-left: 10px;
+    flex-grow: 2;
+    order:2;
+    
 }
 .csi{
-    float: right;
-    margin-top: inherit;
+     float: right;
+    margin-top: 45px;
     position: absolute;
-    top: 75px;
-    right: 20px;
-}
+    top: 50px;
+    right: 10px;
+    align-self: flex-end;
+    order:3;
+} 
 .navigation{
 
 }
