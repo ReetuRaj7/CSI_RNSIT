@@ -18,9 +18,13 @@ body{
 p{
     margin-bottom: 2px;
 }
-/* .nav-item{
-    width: 100px;
-} */
+.nav-item{
+    width:fit-content;
+    padding-left:25px;
+    padding-right:25px;
+    
+
+}
 .college{
     display: flex;
     justify-content:flex-start ;
@@ -71,9 +75,11 @@ p{
     color:white;
 }
 .menubar ul li{
-    width:110px;
+    width:max-content;
     margin:15px;
-    height: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height:10px;
 }
 .menubar ul li a{
     text-decoration: none;
@@ -84,7 +90,7 @@ p{
     border-radius:4px;
 }
 .menubar .fa{
-    margin: 8px;
+    margin: 2px;
 }
 .carousel{
     height: 500px;
