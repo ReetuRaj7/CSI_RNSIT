@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: #E0FFFB;
+}
+p{
+    margin-bottom: 2px;
+}
+/* .nav-item{
+    width: 100px;
+} */
+.college{
+    width: 1500px;
+}
+.image1{
+    margin: 20px 10px;
+    max-width: 15%;
+}
+.image2{
+    margin: 20px 10px;
+    max-width: 3%;
+    position: absolute;
+    top: 60px;
+    right: 250px;
+}
+.homeicon{
+    float:left;
+}
+.rns{
+    float: right;
+    margin-top: 100px;
+    margin-right: 675px;
+}
+.csi{
+    float: right;
+    margin-top: inherit;
+    position: absolute;
+    top: 75px;
+    right: 20px;
+}
+.navigation{
+
+}
+
+.menubar{
+    background: #0E6AC7;
+    text-align:center;
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color:white;
+}
+.menubar ul li{
+    width:110px;
+    margin:15px;
+    height: 15px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.menubar ul li:hover{
+    background: #4FB9FC;
+    border-radius:4px;
+}
+.menubar .fa{
+    margin: 8px;
+}
+.carousel{
+    height: 500px;
+}
