@@ -18,42 +18,63 @@ body{
 p{
     margin-bottom: 2px;
 }
-/* .nav-item{
-    width: 100px;
-} */
+.nav-item{
+    width:fit-content;
+    font-family: 'Montserrat', sans-serif;
+    padding-left:25px;
+    font-weight: bold;
+    padding-right:25px;
+}
+.nav-item:hover{
+    background-color: #E4FBFF;
+    border-radius: 5px;
+}
 .college{
-    width: 1500px;
+    display: flex;
+    background: #0E6AC7;
+    justify-content:flex-start ;
 }
 .image1{
-    margin: 20px 10px;
-    max-width: 15%;
+    /* margin: 20px 10px; */
+    max-width: 8%;
+    flex-wrap: wrap;
 }
 .image2{
     margin: 20px 10px;
     max-width: 3%;
+    margin-top: 30px;
     position: absolute;
-    top: 60px;
+    top: 70px;
     right: 250px;
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
 .homeicon{
     float:left;
 }
 .rns{
-    float: right;
-    margin-top: 100px;
-    margin-right: 675px;
+     /* float: right; */
+    margin-top: 40px;
+    margin-left: 10px;
+    flex-grow: 2;
+    order:2;
+
 }
 .csi{
-    float: right;
-    margin-top: inherit;
+     float: right;
+    margin-top: 45px;
     position: absolute;
-    top: 75px;
-    right: 20px;
+    top: 50px;
+    right: 10px;
+    align-self: flex-end;
+    order:3;
 }
-.navigation{
 
+.navbar-brand{
+    font-family: serif;
 }
-
 .menubar{
     background: #0E6AC7;
     text-align:center;
@@ -64,9 +85,11 @@ p{
     color:white;
 }
 .menubar ul li{
-    width:110px;
+    width:max-content;
     margin:15px;
-    height: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height:25px;
 }
 .menubar ul li a{
     text-decoration: none;
@@ -77,8 +100,22 @@ p{
     border-radius:4px;
 }
 .menubar .fa{
-    margin: 8px;
+    margin: 2px;
 }
 .carousel{
     height: 500px;
 }
+
+
+/* .show > .dropdown-menu {
+  max-height: 900px;
+  visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  max-height: 50px;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+} */
