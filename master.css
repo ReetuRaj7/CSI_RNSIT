@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
@@ -12,9 +11,13 @@ h2{
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
 }
-body{
+.body1{
     background-color: #E0FFFB;
 }
+.rgba-white-light
+  {
+      background-color: aqua;
+  }
 p{
     margin-bottom: 2px;
 }
