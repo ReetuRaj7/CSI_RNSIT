@@ -5,7 +5,7 @@
 }
 h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
 }
 h2{
     font-family: 'Ubuntu', sans-serif;
@@ -69,7 +69,7 @@ p{
      float: right;
     margin-top: 90px;
     position: absolute;
-    top: 50px;
+    top: 30px;
     right: 10px;
     align-self: flex-end;
     order:3;
