@@ -1,7 +1,6 @@
 *{
     margin:0;
     padding: 0;
-    box-sizing: border-box;
 }
 h1{
     font-family: 'Montserrat', sans-serif;
@@ -106,7 +105,15 @@ p{
     margin: 2px;
 }
 .carousel{
-    height: 500px;
+    height: 600px;
+    
+}
+.carous{
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-right:500px;
+    height: 800px;
+    width: 1000px;
 }
 
 
